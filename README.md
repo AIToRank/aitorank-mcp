@@ -63,15 +63,13 @@ Any client that supports remote MCP servers with OAuth works: point it at `https
 
 | Tool | What it does |
 |---|---|
-| `get_site` | Your blog: website, blog address, language, plan and business profile (what you sell, audience, tone, topics to avoid) |
-| `get_writing_guide` | The rules for this blog (length, structure, tone, accuracy, links) and the list of existing articles with their internal links |
-| `list_articles` / `get_article` | Browse articles and read one in full (Markdown), with status, URL and cover |
-| `get_planning` | Scheduled and recent articles, the next free publication slot, what's left of today's allowances |
+| `get_writing_guide` | Start here: your blog (address, plan), business profile (what you sell, readers, tone, topics to avoid), the rules for an article and the existing articles with their internal links |
+| `list_articles` / `get_article` | Browse articles and read one in full (Markdown, FAQ), with status, URL and cover |
+| `get_planning` | Scheduled and recent articles, the next free publication slot, how many articles your AI can still publish |
 | `create_article` | Saves a new article and publishes it now, schedules it or keeps it as a draft. Checked first (length, sections); a cover is generated automatically |
-| `update_article` | Changes the title, body, description or target search; published articles keep their URL |
+| `update_article` | Changes the title, body, description, target search or FAQ; published articles keep their URL |
 | `schedule_article` | Publish now, schedule, unpublish or archive. Nothing is ever deleted |
-| `generate_cover` | A new 16:9 AI cover for an article |
-| `attach_cover` | Use your own image as the cover |
+| `set_cover` | Use your own image as the cover, or generate a new 16:9 AI cover |
 | `list_pending` | Topics and articles AIToRank prepared that wait for your decision *(Pro)* |
 | `review_topic` | Approve or reject a proposed topic *(Pro)* |
 
