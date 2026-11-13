@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.aitorank/aitorank",
+  "title": "AIToRank",
+  "description": "Your AI writes and publishes on your company blog, on your own domain and styled like your website.",
+  "websiteUrl": "https://aitorank.com",
+  "repository": {
+    "url": "https://github.com/aitorank/aitorank-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/aitorank/aitorank-mcp/main/assets/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aitorank.com/mcp"
+    }
+  ]
+}
